@@ -1,0 +1,2 @@
+<input id ="message" type="text" class="textInput" placeholder="Message" #input (keydown)="handleSubmit($event, input)">
+<button id="post" (click)="create(input)" class="btn btn-primary">Post</button>

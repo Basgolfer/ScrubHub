@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.active-users {
+  height: 90vh;
+  background-color: purple;
+  border-radius: 15px;
+}
+
+.active-chat {
+  height: 80vh;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.post-to-active-chat {
+  text-align: center;
+  height: 10vh;
+  width: 100vw;
+  background-color: gray;
+  border-radius: 15px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
