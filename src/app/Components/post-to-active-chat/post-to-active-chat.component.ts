@@ -24,6 +24,7 @@ export class PostToActiveChatComponent implements OnInit {
       userId: 1,
       timestamp: new Date()
     }
+    input.value = '';
     this.chat.addMessage(newMessage);
   }
 

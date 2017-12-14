@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import {MessageObj} from '../message-obj';
-import {isUndefined} from "util";
 
 @Injectable()
 export class ChatService {
@@ -11,8 +10,8 @@ export class ChatService {
   }
 
   addMessage(msg: MessageObj) {
-    console.log('SendMessage() in chatService' + msg.message + ' ' + msg.timestamp);
     this._messages.push(msg);
+    console.log(this._messages);
   }
   get allMessages(): MessageObj[] {
     return this._messages;
